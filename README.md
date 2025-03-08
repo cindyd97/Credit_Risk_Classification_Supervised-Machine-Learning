@@ -1,26 +1,27 @@
 # credit-risk-classification
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+* The purpose of this analysis is to train and evaluate certain supervised machine learning models based on the risk of loans. 
+* The dataset consists of historical lending activity from a peer-to-peer lending services company. The assignment entails that the analyst build a model that can correctly predict whether a loan is healthy or high-risk based on training data. 
+* The dependant variable is the `loan_status` column and the labels are either healthy loan (0) or high-risk loan (1).
+* After describing the purpose and where the data is from, the process includes splitting the data for training and testing sets. Then the code utilizes the logistic regression model followed by an evaluation using the conusion matrix and classification report. 
+*  Other steps included trying out different models (Support Ventor Machine learning, Deciscion Tree Learning, as well as K Nearest Neighbors).
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Logistic Regression model:
+    * The overall accuracy of the model stands at 99%. The precision score is 100% for healthy loans and 84% for high-risk loans. The recall score is 99% and 94% for healthy loans and high-risk loans, respectively. The f-1 score is 100% for healthy loans and 89% for high-risk loans.
+* SVM model:
+    * The overall accuracy of the model stands at 99%. The precision score is 100% for healthy loans and 84% for high-risk loans. The recall score is 99% and 98% for healthy loans and high-risk loans, respectively. The f-1 score is 100% for healthy loans and 91% for high-risk loans.
+* Decision Tree model:
+    * The overall accuracy of the model stands at 99%. The precision score is 100% for healthy loans and 84% for high-risk loans. The recall score is 99% and 85% for healthy loans and high-risk loans, respectively. The f-1 score is 99% for healthy loans and 85% for high-risk loans.
+* K Nearest Neighbors model:
+    * The overall accuracy of the model stands at 99%. The precision score is 100% for healthy loans and 84% for high-risk loans. The recall score is 99% and 93% for healthy loans and high-risk loans, respectively. The f-1 score is 100% for healthy loans and 88% for high-risk loans.
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+It appears that the logisitic regression model as well as the SVM model are both models to recommended to use for deployment. 
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+* Based on the scores described above, it can be observed that the logisitic regression model as well as the SVM model have relatively higher precision, recall, and F1 scores among the other models. The accuracy score is 99% for each model which indicates that the models are acceptable overrall.
+* The scores for both healthy and high-risk loans show acceptable scores. In this case it is more important for the model to correctly identify high-risk loans so that the bank and creditors can carefully avoid bad loans that they will not expect a return on. 
 
-If you do not recommend any of the models, please justify your reasoning.
