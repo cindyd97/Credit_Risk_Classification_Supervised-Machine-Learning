@@ -3,9 +3,9 @@
 
 * The purpose of this analysis is to train and evaluate certain supervised machine learning models based on the risk of loans. 
 * The dataset consists of historical lending activity from a peer-to-peer lending services company. The assignment entails that the analyst build a model that can correctly predict whether a loan is healthy or high-risk based on training data. 
-* The dependant variable is the `loan_status` column and the labels are either healthy loan (0) or high-risk loan (1).
-* After describing the purpose and where the data is from, the process includes splitting the data for training and testing sets. Then the code utilizes the logistic regression model followed by an evaluation using the conusion matrix and classification report. 
-*  Other steps included trying out different models (Support Ventor Machine learning, Deciscion Tree Learning, as well as K Nearest Neighbors).
+* The dependent variable is the `loan_status` column and the labels are either healthy loan (0) or high-risk loan (1).
+* After describing the purpose and where the data is from, the process includes splitting the data for training and testing sets. Then the code utilizes the logistic regression model followed by an evaluation using the confusion matrix and classification report. 
+*  Other steps include trying out different models (Support Vector Machine learning, Decicsion Tree Learning, as well as K Nearest Neighbors).
 
 ## Results
 
@@ -20,8 +20,8 @@
 
 ## Summary
 
-It appears that the logisitic regression model as well as the SVM model are both models to recommended to use for deployment. 
+It appears that the logistic regression model as well as the SVM model are both models that are recommended to use for deployment. 
 
-* Based on the scores described above, it can be observed that the logisitic regression model as well as the SVM model have relatively higher precision, recall, and F1 scores among the other models. The accuracy score is 99% for each model which indicates that the models are acceptable overrall.
-* The scores for both healthy and high-risk loans show acceptable scores. In this case it is more important for the model to correctly identify high-risk loans so that the bank and creditors can carefully avoid bad loans that they will not expect a return on. 
+* Based on the scores described above, it can be observed that the logistic regression model as well as the SVM model have relatively higher precision, recall, and F1 scores among the other models. The accuracy score is 99% for each model which indicates that the models are acceptable overall.
+* The scores for both healthy and high-risk loans show acceptable scores. In this case, it is more important for the model to correctly identify high-risk loans so that the bank and creditors can carefully avoid bad loans that they will not expect a return on. 
 
