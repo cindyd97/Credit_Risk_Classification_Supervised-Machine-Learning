@@ -3,6 +3,10 @@
 ### Language:
 Python with scikit-learn
 
+### Details:
+- [Python Code](https://github.com/cindyd97/Credit_Risk_Classification_Supervised-Machine-Learning/blob/main/Credit_Risk/credit_risk_classification.ipynb)
+- [Lending Data file](https://github.com/cindyd97/Credit_Risk_Classification_Supervised-Machine-Learning/blob/main/Credit_Risk/Resources/lending_data.csv)
+
 ## Overview of the Analysis
 
 * The purpose of this analysis is to train and evaluate certain supervised machine learning models based on the risk of loans. 
