@@ -1,10 +1,7 @@
 # Credit-Risk-Classification with Supervised Machine Learning
 
-### Description:
-
 ### Language:
-
-
+Python with scikit-learn
 
 ## Overview of the Analysis
 
