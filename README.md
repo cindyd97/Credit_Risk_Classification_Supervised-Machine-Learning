@@ -15,6 +15,9 @@ Python with scikit-learn
 * After describing the purpose and where the data is from, the process includes splitting the data for training and testing sets. Then the code utilizes the logistic regression model followed by an evaluation using the confusion matrix and classification report. 
 *  Other steps include trying out different models (Support Vector Machine learning, Decision Tree Learning, as well as K Nearest Neighbors).
 
+This ReadME is [copyrighted](https://github.com/cindyd97/Work/blob/main/LICENSE). 
+Unauthorized use or reproduction is prohibited.
+
 ## Results
 
 * Logistic Regression model:
